@@ -1,19 +1,20 @@
 {
-  "name": "app-api",
+  "name": "deep-fake-api",
   "version": "1.0.0",
   "main": "server.js",
   "api": "none",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["api"],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "An API that will receive a video file and respond with a binary value that will tell whether the video was deepfaked and the frames that were deep faked.",
   "devDependencies": {
     "@types/express": "^4.17.21",
-    "@types/node": "^22.5.5"
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.5.5",
+    "dotenv": "^16.4.5"
   },
   "dependencies": {
     "express": "^4.21.0",
